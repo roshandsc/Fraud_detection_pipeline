@@ -13,12 +13,12 @@ A **scalable machine learning pipeline** for detecting fraudulent transactions u
    - [4.2 Data Loading & Merging](#42-data-loading--merging)
    - [4.3 Exploratory Data Analysis](#43-exploratory-data-analysis)
    - [4.4 Feature Engineering and Imbalanced Data Handling](#44-feature-engineering)
-   - [4.5 Bagging Techniques and Baseline Comparisons](#45-Bagging-Techniques-and-Baseline-Comparisons)
-   - [4.6 Boosting Algorithms](#46-Boosting-Algorithms)
-   - [4.7 Hybrid Models and Unsupervised Techniques](#47-Hybrid-Models-and-Unsupervised-Techniques)
-   - [4.8 Final Evaluation and Pipeline Development](#48Final-Evaluation-and-Pipeline-Development)
-6. [LOGICAL CONCLUSION](#LOGICAL-CONCLUSION)
-7. [Learnings](#Learnings)
+   - [4.5 Bagging Techniques and Baseline Comparisons](#45-bagging-techniques-and-baseline-comparisons)
+   - [4.6 Boosting Algorithms](#46-boosting-algorithms)
+   - [4.7 Hybrid Models and Unsupervised Techniques](#47-hybrid-models-and-unsupervised-techniques)
+   - [4.8 Final Evaluation and Pipeline Development](#48-final-evaluation-and-pipeline-development)
+6. [LOGICAL CONCLUSION](#logical)
+7. [Learnings](#learnings)
 
 ---
 
@@ -649,7 +649,7 @@ Name: count, dtype: int64
 - Overall accuracy and macro average F1-score around **0.75** suggest decent generalization while handling imbalanced data.
 
 ---
-### 5.Bagging Techniques and Baseline Comparisons <a name="45-Bagging-Techniques-and-Baseline-Comparisons"></a>
+### 5.Bagging Techniques and Baseline Comparisons <a name="45-bagging-techniques-and-baseline-comparisons"></a>
 
 ## Model Performance Summary
 
@@ -687,7 +687,7 @@ Ensemble methods (Random Forest and Bagging) are clearly better at handling the 
 - **Random Forest** and **Bagging** require more memory but offer superior predictive performance, justifying the trade-off for many real-world fraud detection tasks.
 
 ---
-### 6.Boosting Algorithms <a name="46-Boosting-Algorithms"></a>
+### 6.Boosting Algorithms <a name="46-boosting-algorithms"></a>
 
 ### Gradient Boosting
 
@@ -777,7 +777,7 @@ Ensemble methods (Random Forest and Bagging) are clearly better at handling the 
 - Memory usage is quite low for most boosting models, making them efficient for deployment.
 
 ---
-### 7. Hybrid Models and Unsupervised Technique <a name="47-Hybrid-Models-and-Unsupervised-Techniques"></a>
+### 7. Hybrid Models and Unsupervised Technique <a name="47-hybrid-models-and-unsupervised-techniques"></a>
 
 <b>Objective:</b> Implement hybrid and anomaly detection models
 
@@ -948,7 +948,7 @@ This method effectively balances strengths of individual models, making it a rob
 
 ---
 
-### 8.Final Evaluation and Pipeline Development <a name="48Final-Evaluation-and-Pipeline-Development"></a>
+### 8.Final Evaluation and Pipeline Development <a name="48-final-evaluation-and-pipeline-development"></a>
 
 <b>Objective:</b> Develop the fraud detection pipeline and summarize findings
 
@@ -1078,7 +1078,7 @@ Overall, ensemble tree-based models outperform linear models and are better suit
 
 ------
 
-# LOGICAL CONCLUSION <a name="LOGICAL-CONCLUSION"></a>
+# LOGICAL CONCLUSION <a name="logical"></a>
 
 ### Class Imbalance is Critical
 
@@ -1122,7 +1122,7 @@ Combining robust **ensemble methods**, thoughtful **feature engineering**, and s
 
 -----
 
-# Learnings <a name="Learnings"></a>
+# Learnings <a name="learnings"></a>
 
 ###  Handling Imbalanced Data
 
