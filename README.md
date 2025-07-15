@@ -375,7 +375,7 @@ plt.show()
 
 ---
 
-### 4. **Feature Engineering and Imbalanced Data Handling ** <a name="44-feature-engineering"></a>
+### 4. Feature Engineering and Imbalanced Data Handling  <a name="44-feature-engineering"></a>
 
 <b>Objective:</b> Engineer features and tackle imbalanced datasets.
 
